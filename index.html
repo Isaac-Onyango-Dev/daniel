@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Daniel Ochich | Web Design Solutions — Nairobi, Kenya</title>
+  <meta name="description" content="Daniel Ochich – Professional freelance web designer and writer based in Nairobi, Kenya. Elevate Your Digital Presence with custom websites, e-commerce, SEO and more." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Syne:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ═══════════ NAV ═══════════ -->
+<nav id="navbar">
+  <a href="#hero" class="nav-logo">Web Design<span> Solutions</span></a>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#about">About</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#portfolio">Work</a></li>
+    <li><a href="#testimonials">Reviews</a></li>
+    <li><a href="#contact" class="nav-cta">Hire Me</a></li>
+  </ul>
+  <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- ═══════════ HERO ═══════════ -->
+<section id="hero">
+  <canvas class="hero-canvas" id="heroCanvas"></canvas>
+  <div class="hero-glow hero-glow-1"></div>
+  <div class="hero-glow hero-glow-2"></div>
+  <div class="hero-content">
+    <div class="hero-badge">
+      <span class="badge-dot"></span>
+      Available for freelance projects · Nairobi, Kenya
+    </div>
+    <h1 class="hero-name">
+      Daniel <span class="accent">Ochich</span>
+    </h1>
+    <p class="hero-tagline">
+      <strong>Elevate Your Digital Presence</strong>
+    </p>
+    <div class="hero-actions">
+      <a href="#portfolio" class="btn-primary">
+        View My Work
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </a>
+      <a href="#contact" class="btn-outline">Get a Free Quote</a>
+    </div>
+  </div>
+  <div class="hero-scroll">
+    <div class="scroll-line"></div>
+    <span>Scroll</span>
+  </div>
+</section>
+
+<!-- ═══════════ ABOUT ═══════════ -->
+<section id="about">
+  <div class="about-grid">
+    <div class="about-photo-wrap reveal">
+      <div class="about-photo">
+        <img src="profile.png" alt="Daniel Ochich — Web Designer & Writer" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';" />
+        <svg width="120" height="120" viewBox="0 0 24 24" fill="none" stroke="#00ffd2" stroke-width="1" style="display:none;">
+          <circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/>
+        </svg>
+      </div>
+      <div class="about-badge-float">
+        7+
+        <span>Years Exp.</span>
+      </div>
+    </div>
+    <div>
+      <p class="section-label reveal">About Me</p>
+      <h2 class="section-title reveal reveal-delay-1">The Designer Behind the Pixels</h2>
+      <p class="section-sub reveal reveal-delay-2">
+        I'm Daniel Ochich — a passionate freelance web designer and writer based in Nairobi, Kenya.
+        I fuse clean code with bold, conversion-focused aesthetics so that every project I take on
+        is custom-crafted with meticulous attention to detail. Your website is your most powerful
+        business tool, and I treat it that way.
+      </p>
+      <div class="about-highlights">
+        <div class="highlight-item reveal reveal-delay-2">
+          <div class="highlight-icon">✦</div>
+          <div class="highlight-text">
+            <strong>Pixel-Perfect Design</strong>
+            <span>Every pixel intentional. Every element refined.</span>
+          </div>
+        </div>
+        <div class="highlight-item reveal reveal-delay-3">
+          <div class="highlight-icon">⚡</div>
+          <div class="highlight-text">
+            <strong>Clean, Optimised Code</strong>
+            <span>Fast-loading, accessible, and maintainable.</span>
+          </div>
+        </div>
+        <div class="highlight-item reveal reveal-delay-4">
+          <div class="highlight-icon">📅</div>
+          <div class="highlight-text">
+            <strong>On-Time Delivery</strong>
+            <span>Projects shipped on schedule, guaranteed.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ SERVICES ═══════════ -->
+<section id="services">
+  <div style="text-align:center; margin-bottom:3.5rem;">
+    <p class="section-label reveal">What I Offer</p>
+    <h2 class="section-title reveal reveal-delay-1" style="max-width:560px;margin:0 auto 1rem;">
+      Services Designed to Elevate Your Brand
+    </h2>
+    <p class="section-sub reveal reveal-delay-2" style="margin:0 auto;">
+      From concept to deployment — everything you need to win online.
+    </p>
+  </div>
+  <div class="services-grid">
+    <div class="service-card reveal reveal-delay-1">
+      <div class="service-icon">🎨</div>
+      <h3>Custom Website Design</h3>
+      <p>Bespoke designs that match your brand's personality and captivate your audience from the first scroll.</p>
+    </div>
+    <div class="service-card reveal reveal-delay-2">
+      <div class="service-icon">🛒</div>
+      <h3>E-commerce Solutions</h3>
+      <p>Complete online stores with smooth checkout flows, inventory systems, and conversion-focused layouts.</p>
+    </div>
+    <div class="service-card reveal reveal-delay-3">
+      <div class="service-icon">📱</div>
+      <h3>Mobile-Responsive Layouts</h3>
+      <p>Flawlessly adaptive designs that look stunning on every device — from phones to ultrawide monitors.</p>
+    </div>
+    <div class="service-card reveal reveal-delay-1">
+      <div class="service-icon">🔍</div>
+      <h3>SEO Optimisation</h3>
+      <p>Technical SEO baked into every build — so your site ranks, loads fast, and gets found by the right people.</p>
+    </div>
+    <div class="service-card reveal reveal-delay-2">
+      <div class="service-icon">📝</div>
+      <h3>Content Management</h3>
+      <p>CMS integration so you can update your own content effortlessly, no developer needed.</p>
+    </div>
+    <div class="service-card reveal reveal-delay-3">
+      <div class="service-icon">🔧</div>
+      <h3>Website Maintenance</h3>
+      <p>Ongoing support, security updates, and performance monitoring to keep your site running flawlessly.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ PORTFOLIO ═══════════ -->
+<section id="portfolio">
+  <div style="text-align:center; margin-bottom:2rem;">
+    <p class="section-label reveal">Portfolio</p>
+    <h2 class="section-title reveal reveal-delay-1">Selected Work</h2>
+    <p class="section-sub reveal reveal-delay-2" style="margin:0 auto 2.5rem;">A curated collection of projects that pushed creative boundaries.</p>
+  </div>
+  <div class="filter-bar reveal" style="justify-content:center;">
+    <button class="filter-btn active" data-filter="all">All</button>
+    <button class="filter-btn" data-filter="ecommerce">E-commerce</button>
+    <button class="filter-btn" data-filter="business">Business</button>
+    <button class="filter-btn" data-filter="portfolio">Portfolio</button>
+  </div>
+  <div class="portfolio-grid" id="portfolioGrid">
+    <div class="portfolio-card reveal reveal-delay-1" data-category="ecommerce">
+      <div class="portfolio-img" style="background:linear-gradient(135deg,#1a0a2e,#0d1a3a);">
+        <svg width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="rgba(0,255,210,.4)" stroke-width="1"><path d="M9 2H5L2 9h20l-3-7h-4"/><path d="M2 9v11a2 2 0 002 2h16a2 2 0 002-2V9"/></svg>
+      </div>
+      <div class="portfolio-overlay">
+        <span class="portfolio-tag">E-commerce</span>
+        <p class="portfolio-title">LuxeStore — Fashion Boutique</p>
+        <button class="btn-sm">View Project</button>
+      </div>
+    </div>
+    <div class="portfolio-card reveal reveal-delay-2" data-category="business">
+      <div class="portfolio-img" style="background:linear-gradient(135deg,#0a2e1a,#0a1a30);">
+        <svg width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="rgba(0,255,210,.4)" stroke-width="1"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+      </div>
+      <div class="portfolio-overlay">
+        <span class="portfolio-tag">Business</span>
+        <p class="portfolio-title">Nexus Corp — Agency Site</p>
+        <button class="btn-sm">View Project</button>
+      </div>
+    </div>
+    <div class="portfolio-card reveal reveal-delay-3" data-category="portfolio">
+      <div class="portfolio-img" style="background:linear-gradient(135deg,#1a1a0a,#2a0a3a);">
+        <svg width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="rgba(0,255,210,.4)" stroke-width="1"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98M15.41 6.51l-6.82 3.98"/></svg>
+      </div>
+      <div class="portfolio-overlay">
+        <span class="portfolio-tag">Portfolio</span>
+        <p class="portfolio-title">Sara Bloom — Artist Portfolio</p>
+        <button class="btn-sm">View Project</button>
+      </div>
+    </div>
+    <div class="portfolio-card reveal reveal-delay-1" data-category="ecommerce">
+      <div class="portfolio-img" style="background:linear-gradient(135deg,#2e0a1a,#0a2a30);">
+        <svg width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="rgba(0,255,210,.4)" stroke-width="1"><path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"/></svg>
+      </div>
+      <div class="portfolio-overlay">
+        <span class="portfolio-tag">E-commerce</span>
+        <p class="portfolio-title">TeaLeaf — Online Tea Shop</p>
+        <button class="btn-sm">View Project</button>
+      </div>
+    </div>
+    <div class="portfolio-card reveal reveal-delay-2" data-category="business">
+      <div class="portfolio-img" style="background:linear-gradient(135deg,#0a2e2e,#1a0a2e);">
+        <svg width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="rgba(0,255,210,.4)" stroke-width="1"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+      </div>
+      <div class="portfolio-overlay">
+        <span class="portfolio-tag">Business</span>
+        <p class="portfolio-title">HomeCore — Real Estate</p>
+        <button class="btn-sm">View Project</button>
+      </div>
+    </div>
+    <div class="portfolio-card reveal reveal-delay-3" data-category="portfolio">
+      <div class="portfolio-img" style="background:linear-gradient(135deg,#1a2e0a,#0a0a2e);">
+        <svg width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="rgba(0,255,210,.4)" stroke-width="1"><path d="M12 2a5 5 0 100 10A5 5 0 0012 2z"/><path d="M12 13c-5.33 0-8 2.67-8 4v2h16v-2c0-1.33-2.67-4-8-4z"/></svg>
+      </div>
+      <div class="portfolio-overlay">
+        <span class="portfolio-tag">Portfolio</span>
+        <p class="portfolio-title">Marcus Veil — Photographer</p>
+        <button class="btn-sm">View Project</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ TESTIMONIALS ═══════════ -->
+<section id="testimonials">
+  <div style="text-align:center; margin-bottom:3.5rem;">
+    <p class="section-label reveal">Testimonials</p>
+    <h2 class="section-title reveal reveal-delay-1">What Clients Say</h2>
+  </div>
+  <div class="testimonials-grid">
+    <div class="testimonial-card reveal reveal-delay-1">
+      <div class="stars">★★★★★</div>
+      <p class="testimonial-text">"Daniel completely transformed our online presence. The new site launched and within 3 months our leads doubled. The attention to detail is unlike anything I've experienced with other designers."</p>
+      <div class="testimonial-author">
+        <div class="author-avatar" style="background:linear-gradient(135deg,var(--accent),var(--accent2));">JR</div>
+        <div>
+          <p class="author-name">James Rivera</p>
+          <p class="author-company">CEO, Nexus Digital</p>
+        </div>
+      </div>
+    </div>
+    <div class="testimonial-card reveal reveal-delay-2">
+      <div class="stars">★★★★★</div>
+      <p class="testimonial-text">"The responsiveness was incredible — Daniel replied within hours and delivered ahead of schedule. Our e-commerce store feels premium and our conversion rate jumped by 40%."</p>
+      <div class="testimonial-author">
+        <div class="author-avatar" style="background:linear-gradient(135deg,#ff6b6b,#ee5a24);">SP</div>
+        <div>
+          <p class="author-name">Sophia Park</p>
+          <p class="author-company">Founder, LuxeStore</p>
+        </div>
+      </div>
+    </div>
+    <div class="testimonial-card reveal reveal-delay-3">
+      <div class="stars">★★★★★</div>
+      <p class="testimonial-text">"I've worked with many designers but Daniel stands out. The site is fast, beautiful, and ranks on page 1 of Google. The ongoing maintenance plan gives me total peace of mind."</p>
+      <div class="testimonial-author">
+        <div class="author-avatar" style="background:linear-gradient(135deg,#a29bfe,#6c5ce7);">MT</div>
+        <div>
+          <p class="author-name">Mark Thompson</p>
+          <p class="author-company">Director, HomeCore Realty</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ CONTACT ═══════════ -->
+<section id="contact">
+  <div style="text-align:center; margin-bottom:3.5rem;">
+    <p class="section-label reveal">Contact</p>
+    <h2 class="section-title reveal reveal-delay-1">Let's Build Something Great Together</h2>
+    <p class="section-sub reveal reveal-delay-2" style="margin:0 auto;">
+      Ready to elevate your digital presence? Drop me a message and I'll get back to you within 24 hours.
+    </p>
+  </div>
+  <div class="contact-grid">
+    <div class="contact-info">
+      <div class="contact-item reveal reveal-delay-1">
+        <div class="contact-item-icon">✉️</div>
+        <a href="mailto:danielochich@gmail.com">danielochich@gmail.com</a>
+      </div>
+      <div class="contact-item reveal reveal-delay-2">
+        <div class="contact-item-icon">📞</div>
+        <a href="tel:+254726537849">+254 726 537 849</a>
+      </div>
+      <div class="contact-item reveal reveal-delay-2">
+        <div class="contact-item-icon">💬</div>
+        <a href="https://wa.me/254726537849" target="_blank" rel="noopener">WhatsApp: +254 726 537 849</a>
+      </div>
+      <div class="contact-item reveal reveal-delay-3">
+        <div class="contact-item-icon">📍</div>
+        <span style="color:var(--text);font-size:.95rem;">Nairobi, Kenya — Available Worldwide</span>
+      </div>
+      <div class="social-row reveal reveal-delay-4">
+        <a href="https://facebook.com" target="_blank" rel="noopener" class="social-link" aria-label="Facebook">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+        </a>
+        <a href="https://x.com" target="_blank" rel="noopener" class="social-link" aria-label="X (Twitter)">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+        </a>
+        <a href="https://linkedin.com" target="_blank" rel="noopener" class="social-link" aria-label="LinkedIn">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+        </a>
+        <a href="https://instagram.com" target="_blank" rel="noopener" class="social-link" aria-label="Instagram">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+        </a>
+        <a href="https://t.me/danielochich" target="_blank" rel="noopener" class="social-link" aria-label="Telegram">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M22 2L11 13M22 2L15 22l-4-9-9-4 20-7z"/></svg>
+        </a>
+      </div>
+    </div>
+    <form class="contact-form reveal reveal-delay-2" id="contactForm">
+      <div class="form-row">
+        <div class="form-group">
+          <label for="fname">Full Name</label>
+          <input type="text" id="fname" placeholder="John Smith" required />
+        </div>
+        <div class="form-group">
+          <label for="femail">Email</label>
+          <input type="email" id="femail" placeholder="john@company.com" required />
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="ftype">Project Type</label>
+        <select id="ftype">
+          <option value="">Select a service…</option>
+          <option>Custom Website Design</option>
+          <option>E-commerce Solution</option>
+          <option>Mobile-Responsive Layout</option>
+          <option>SEO Optimisation</option>
+          <option>Website Maintenance</option>
+          <option>Other</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="fmsg">Message</label>
+        <textarea id="fmsg" rows="5" placeholder="Tell me about your project…" required></textarea>
+      </div>
+      <button type="submit" class="form-submit">Send Message ✦</button>
+    </form>
+  </div>
+</section>
+
+<!-- ═══════════ FOOTER ═══════════ -->
+<footer>
+  <div class="footer-logo">Web Design Solutions</div>
+  <p class="footer-copy">© 2026 Daniel Ochich · Web Design Solutions. All rights reserved.</p>
+  <a href="#hero" class="footer-back-top" aria-label="Back to top">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 15l7-7 7 7"/></svg>
+  </a>
+</footer>
+
+<script>
+  // ── NAV SCROLL ──
+  const navbar = document.getElementById('navbar');
+  window.addEventListener('scroll', () => {
+    navbar.classList.toggle('scrolled', window.scrollY > 40);
+  });
+
+  // ── HAMBURGER ──
+  const hamburger = document.getElementById('hamburger');
+  const navLinks = document.getElementById('navLinks');
+  hamburger.addEventListener('click', () => navLinks.classList.toggle('open'));
+  navLinks.querySelectorAll('a').forEach(a => a.addEventListener('click', () => navLinks.classList.remove('open')));
+
+  // ── HERO CANVAS (Particle Field) ──
+  const canvas = document.getElementById('heroCanvas');
+  const ctx = canvas.getContext('2d');
+  let W, H, particles;
+
+  function initCanvas() {
+    W = canvas.width = canvas.offsetWidth;
+    H = canvas.height = canvas.offsetHeight;
+    particles = Array.from({ length: 80 }, () => ({
+      x: Math.random() * W,
+      y: Math.random() * H,
+      r: Math.random() * 1.5 + .3,
+      vx: (Math.random() - .5) * .4,
+      vy: (Math.random() - .5) * .4,
+      alpha: Math.random() * .5 + .1
+    }));
+  }
+
+  function drawCanvas() {
+    ctx.clearRect(0, 0, W, H);
+    particles.forEach(p => {
+      p.x += p.vx; p.y += p.vy;
+      if (p.x < 0) p.x = W; if (p.x > W) p.x = 0;
+      if (p.y < 0) p.y = H; if (p.y > H) p.y = 0;
+      ctx.beginPath();
+      ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+      ctx.fillStyle = `rgba(0,255,210,${p.alpha})`;
+      ctx.fill();
+    });
+
+    // draw connections
+    for (let i = 0; i < particles.length; i++) {
+      for (let j = i + 1; j < particles.length; j++) {
+        const dx = particles[i].x - particles[j].x;
+        const dy = particles[i].y - particles[j].y;
+        const dist = Math.sqrt(dx * dx + dy * dy);
+        if (dist < 110) {
+          ctx.beginPath();
+          ctx.moveTo(particles[i].x, particles[i].y);
+          ctx.lineTo(particles[j].x, particles[j].y);
+          ctx.strokeStyle = `rgba(0,255,210,${0.06 * (1 - dist / 110)})`;
+          ctx.lineWidth = .5;
+          ctx.stroke();
+        }
+      }
+    }
+    requestAnimationFrame(drawCanvas);
+  }
+
+  initCanvas();
+  drawCanvas();
+  window.addEventListener('resize', initCanvas);
+
+  // ── SCROLL REVEAL ──
+  const reveals = document.querySelectorAll('.reveal');
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); observer.unobserve(e.target); } });
+  }, { threshold: .12 });
+  reveals.forEach(el => observer.observe(el));
+
+  // ── PORTFOLIO FILTER ──
+  document.querySelectorAll('.filter-btn').forEach(btn => {
+    btn.addEventListener('click', function () {
+      document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+      this.classList.add('active');
+      const filter = this.dataset.filter;
+      document.querySelectorAll('.portfolio-card').forEach(card => {
+        const show = filter === 'all' || card.dataset.category === filter;
+        card.style.display = show ? 'block' : 'none';
+      });
+    });
+  });
+
+  // ── CONTACT FORM ──
+  document.getElementById('contactForm').addEventListener('submit', function (e) {
+    e.preventDefault();
+    const btn = this.querySelector('.form-submit');
+    const orig = btn.textContent;
+    btn.textContent = '✅ Message Sent!';
+    btn.style.background = '#00c9a7';
+    setTimeout(() => { btn.textContent = orig; btn.style.background = ''; this.reset(); }, 3000);
+  });
+</script>
+</body>
+</html>
